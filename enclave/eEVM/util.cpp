@@ -46,15 +46,15 @@ namespace eevm
 
   Address generate_address(const Address& sender, uint64_t nonce)
   {
-    //const auto rlp_encoding = rlp::encode(sender, nonce);
+    const auto rlp_encoding = rlp::encode(sender, nonce);
 
     uint8_t buffer[32u];
-      /*
+
       keccak_256(
         rlp_encoding.data(),
         static_cast<unsigned int>(rlp_encoding.size()),
         buffer);
-  */
+
     return from_big_endian(buffer + 12u, 20u);
   }
 } // namespace eevm

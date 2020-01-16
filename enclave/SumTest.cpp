@@ -116,7 +116,7 @@ void test_sum()
     const uint256_t result =
             eevm::from_big_endian(e.output.data(), e.output.size());
 
-    fprintf(stdout, "sum result = \n");
+    fprintf(stdout, "sum result = ");
     fprintf(stdout, eevm::to_lower_hex_string(result).c_str());
     fprintf(stdout, "\n");
 }

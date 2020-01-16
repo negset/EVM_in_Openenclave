@@ -7,7 +7,7 @@ project("Hello World Sample" LANGUAGES C CXX)
 
 find_package(OpenEnclave CONFIG REQUIRED)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(enclave)
 add_subdirectory(host)
