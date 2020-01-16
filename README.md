@@ -39,7 +39,7 @@ Enclave called into host to print: Hello World!
 ## One more thing
 Current version of this repository does not ure the source code [rlp](https://github.com/liangyihuai/EVM_in_Openenclave/blob/master/enclave/eEVM/rlp.h) that belongs to eEVM. Because eEVM in C++ 17, and OpenEnclave in C and C++ 14. 
 
-If it is very necessary to use it  [rlp](https://github.com/liangyihuai/EVM_in_Openenclave/blob/master/enclave/eEVM/rlp.h), you can follow this to modify the source code.
+If it is very necessary for you to use it  [rlp](https://github.com/liangyihuai/EVM_in_Openenclave/blob/master/enclave/eEVM/rlp.h), you can follow this to modify the source code.
 
 - step1: before compiling the source code of Openenclave, add this comment to its CMakeLists.txt file. 
 > set(CMAKE_CXX_STANDARD 17)
