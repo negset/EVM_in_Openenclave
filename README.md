@@ -8,10 +8,10 @@ Based on [Miscrosoft eEVM](https://github.com/microsoft/eEVM), I modified the co
 
 ## Build by CMake
 
-clone the source code:
+- step1: clone the source code:
 > git clone https://github.com/liangyihuai/EVM_in_Openenclave.git
 
-compile the source code:
+- step2: compile the source code:
 > cd EVM_in_Openenclave
 
 > mkdir build
@@ -20,7 +20,7 @@ compile the source code:
 
 > cmake ..
 
-compile and execute the main function:
+- step3: compile and execute the main function:
 > make run
 
 ## Output of this demo
