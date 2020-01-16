@@ -13,10 +13,27 @@ clone the source code:
 
 compile the source code:
 > cd EVM_in_Openenclave
+
 > mkdir build
+
 > cd build
+
 > cmake ..
 
 compile and execute the main function:
 > make run
+
+## Output of this demo
+
+```
+Hello world from the enclave
+Hello world from wrapHelloWorld1
+Hello world from Greeting
+Hello world!
+Hello world from Greeting2
+Test SUMTest
+sum result = 
+0x7
+Enclave called into host to print: Hello World!
+```
 
