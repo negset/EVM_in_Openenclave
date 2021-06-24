@@ -1,8 +1,6 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
 
-message(${OE_INCLUDEDIR})
-
 # Use the edger8r to generate C bindings from the EDL file.
 add_custom_command(
   OUTPUT helloworld_t.h helloworld_t.c helloworld_args.h
